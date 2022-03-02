@@ -23,7 +23,8 @@ class ArticleManager
                     ->setContent($articleData['content'])
                     ->setDateAdd(DateTime::createFromFormat($format, $articleData['date_add']))
                     ->setDateUpdate(DateTime::createFromFormat($format, $articleData['date_update']))
-                    ->setTitle($articleData['title']);
+                    ->setTitle($articleData['title'])
+                ;
             }
         }
         return $articles;

@@ -28,7 +28,7 @@ class UserManager
                     ->setLastname($userData['lastname'])
                     ->setPassword($userData['password'])
                     ->setAge($userData['age'])
-                    ;
+                ;
             }
         }
         return $users;

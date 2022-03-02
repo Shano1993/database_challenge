@@ -101,6 +101,4 @@ class User extends AbstractEntity
         $this->age = $age;
         return $this;
     }
-
-
 }
